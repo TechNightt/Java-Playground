@@ -45,7 +45,7 @@
 package com.leet_code.easy.q1021_remove_outermost_parentheses.solution1;
 
 /*****************************************************************************************************************************************************************************************************************************************************
- * @author Julian Ghoncharenko                                                                                                                                                                                                                       *
+                                                                                                                                                                                                              *
  * Thoughts on implementation:                                                                                                                                                                                                                       *
  * In this implementation I run on all parentheses inside the String and check if the current character is opening parentheses or closing one.                                                                                                       *
  * This solution is faster than 08.67%                                                                                                                                                                                                               *
