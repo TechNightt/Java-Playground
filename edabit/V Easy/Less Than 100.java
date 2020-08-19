@@ -28,3 +28,52 @@ lessThan100(3, 77) ➞ true                                                     
 //#############################################################
 //#                        MY SOLUTIONS                       #
 //#############################################################
+
+
+
+
+public class Challenge {
+    public static boolean lessThan100(int a, int b) {
+          return (a + b) < 100;
+    }
+  }
+
+
+
+
+  public class Challenge {
+    public static boolean lessThan100(int a, int b) {
+          return (a + b) < 100;
+    }
+  }
+
+
+
+
+  public class Challenge {
+    public static boolean lessThan100(int a, int b) {
+          if (a+b < 100)
+          {
+              return true;
+          }
+          else{
+          return false;
+    }
+  }
+}
+
+
+
+
+
+public class Challenge {
+    public static boolean lessThan100(int a, int b) {
+          if (a+b < 100)
+          {
+              return true;
+          }
+          else{
+          return false;
+    }
+  }
+      }
