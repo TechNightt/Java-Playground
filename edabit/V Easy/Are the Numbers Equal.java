@@ -85,3 +85,14 @@ public class Program {
 			isSameNum(2, 2);
 		}
 }
+
+
+
+
+
+
+public class Program {
+    public static boolean isSameNum(int x, int y) {
+     return x == y;
+    }
+}
