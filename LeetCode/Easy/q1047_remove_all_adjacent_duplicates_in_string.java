@@ -35,3 +35,31 @@ import java.util.Stack;
  * This solution is faster than 42.47%                                                                                                                                                                                                             *
  * Time complexity is O(n)                                                                                                                                                                                                                         *
  * ************************************************************************************************************************************************************************************************************************************************/
+
+
+class Solution {
+    public static String removeDuplicates(String S) {
+        Stack<Character> stack = new Stack<Character>(), stack_helper = new Stack<Character>();
+        StringBuilder res = new StringBuilder();
+        
+        for(int i = 0; i < S.length(); ++i) {
+        	if(!stack.empty()) {
+        		char current_stack = stack.pop().charValue(), current_string = S.charAt(i);
+        		if(current_stack != current_string) {
+        			stack.push(current_stack);
+        			stack.push(current_string);
+        		}
+        	} else {
+        		stack.push(S.charAt(i));
+        	}
+        }
+
+        while(!stack.empty()) 
+        	stack_helper.push(stack.pop());
+        
+        while(!stack_helper.empty())
+        	res.append(stack_helper.pop());
+
+        return res.toString();       
+    }
+}
