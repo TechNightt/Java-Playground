@@ -38,3 +38,25 @@ Remember that the farmer wants to know the total number of legs and not the tota
 //#############################################################
 //#                        MY SOLUTIONS                       #
 //#############################################################
+
+
+
+
+public class Challenge {
+	public static int animals(int chickens, int cows, int pigs) {
+		return chickens * 2 + (cows + pigs) * 4;
+	}
+}
+
+
+
+
+public class Challenge {
+	public static int animals(int chickens, int cows, int pigs) {
+		chickens = chickens * 2;
+		cows = cows * 4;
+		pigs = pigs * 4;
+		
+		return chickens + cows + pigs;
+	}
+}
