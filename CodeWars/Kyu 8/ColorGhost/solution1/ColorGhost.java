@@ -6,6 +6,14 @@ package com.code_wars.kyu8.color_ghost.solution1;
  * Ghost ghost = new Ghost();<br>
  * ghost.getColor(); //=> "white" or "yellow" or "purple" or "red"
 **/
+
+
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
+
+
+
 public class Ghost {
   
 	private String color;
