@@ -85,3 +85,19 @@ public class Challenge {
 		return false;
 	}
 }
+
+
+
+
+
+
+
+public class Challenge {
+	public static boolean both(int n1, int n2) {
+		if (n1 == 0 && n2 == 0) {
+            return true;
+        } else if (n1 > 0 & n2 > 0) {
+            return true;
+        } else return n1 < 0 & n2 < 0;
+	}
+}
