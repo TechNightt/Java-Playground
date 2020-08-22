@@ -51,3 +51,44 @@ public class Challenge {
           return false;
       }
   }
+
+
+
+
+
+
+
+
+  public class Challenge 
+{
+  public static boolean dividesEvenly(int a, int b) 
+	{
+		if(a % b == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class Challenge {
+    public static boolean dividesEvenly(int a, int b) {
+          return a % b < 1;
+    }
+  }
