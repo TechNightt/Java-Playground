@@ -7,7 +7,7 @@ package com.code_wars.kyu8.watermelon.solution1;
  * Example: the boys can divide a stack of 8 watermelons into 2+6 melons, or 4+4 melons.<br><br>
  *
  * The boys are extremely tired and want to start their meal as soon as possible, that's why you should help them and find out, whether they can divide the fruits in the way they want. For sure, each of them should get a part of positive weight.<br><br>
- * = Task =<br>
+ * 
  * Given an integral number of watermelons w (1 ≤ w ≤ 100; 1 ≤ w in Haskell), check whether Pete and Billy can divide the melons so that each of them gets an even amount.<br><br>
  *
  * Examples<br>
