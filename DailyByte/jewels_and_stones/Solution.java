@@ -11,6 +11,11 @@
 
 
 
+//#############################################################
+//#                        MY SOLUTIONS                       #
+//#############################################################
+
+
 class Solution {
 	
 	static int jewelsAndStones(String jewels, String stones) {
