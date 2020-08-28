@@ -1,4 +1,6 @@
 // Source : https://leetcode.com/problems/n-ary-tree-preorder-traversal/
+// Author : Julian Ghoncharenko
+// Date   : 02-08-2020
 
 /******************************************************************************************************************************************************
  * Given an n-ary tree, return the preorder traversal of its nodes' values.                                                                           *
@@ -32,12 +34,14 @@
  * The height of the n-ary tree is less than or equal to 1000                                                                                         *
  * The total number of nodes is between [0, 10^4]                                                                                                     *
  *****************************************************************************************************************************************************/
+package com.leet_code.easy.q589_n_ary_tree_preorder_traversal.solution2;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
 /******************************************************************************************************************************************************
+ * @author Julian Ghoncharenko                                                                                                                        *
  * Thoughts on implementation:                                                                                                                        *
  * I iterate through every child of the tree and use stack to check whether I have iterated through all children.                                     *
  * This solution is faster than 55.86%                                                                                                                *

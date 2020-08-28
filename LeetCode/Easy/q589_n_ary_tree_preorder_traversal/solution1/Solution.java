@@ -1,6 +1,5 @@
 // Source : https://leetcode.com/problems/n-ary-tree-preorder-traversal/
 
-
 /******************************************************************************************************************************************************
  * Given an n-ary tree, return the preorder traversal of its nodes' values.                                                                           *
  *                                                                                                                                                    *
@@ -33,17 +32,22 @@
  * The height of the n-ary tree is less than or equal to 1000                                                                                         *
  * The total number of nodes is between [0, 10^4]                                                                                                     *
  *****************************************************************************************************************************************************/
+package com.leet_code.easy.q589_n_ary_tree_preorder_traversal.solution1;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /******************************************************************************************************************************************************
- ** Thoughts on implementation:                                                                                                                        *
+                                                                                                                      *
+ * Thoughts on implementation:                                                                                                                        *
  * I perform preorder traversal on the tree and then I add every node's value to the result list.                                                     *
  * This solution is faster than 100.00%                                                                                                               *
  * Time complexity is O(n)                                                                                                                            *
  * ***************************************************************************************************************************************************/
-public class Solution {
+
+
+
+ public class Solution {
 	
     public List<Integer> preorder(Node root) {
         return preorder(root, new ArrayList<Integer>());
