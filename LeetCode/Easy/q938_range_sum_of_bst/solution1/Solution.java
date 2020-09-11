@@ -1,5 +1,3 @@
-// Source : https://leetcode.com/problems/range-sum-of-bst/
-// Author : Julian Ghoncharenko
 // Date   : 06-07-2020
 
 /******************************************************************************************************************************
@@ -29,8 +27,7 @@ package com.leet_code.easy.q938_range_sum_of_bst.solution1;
 import com.leet_code.utils.TreeNode;
 
 /******************************************************************************************************************************
- * @author Julian Ghoncharenko                                                                                                *
- * Thoughts on implementation:                                                                                                *
+   Thoughts on implementation:                                                                                                *
  * I take L and R numbers and switch them so that the L number will be the smaller one.                                       *
  * Then I use helper method and recursion to iterate on all TreeNodes and check if their values are between L and R.          *
  * This solution is faster than 52.10%                                                                                        *
