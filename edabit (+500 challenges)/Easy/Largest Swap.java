@@ -88,21 +88,3 @@ public class Challenge {
 
 
 
-
-//#############################################################
-//#                        MY SOLUTION 5
-
-
-
-public class Challenge {
-	public static boolean largestSwap(int num) {
-		String str = String.valueOf(num);
-		str.replaceAll("27", "72");
-		int newNum = Integer.parseInt(str);
-		if(num > newNum || newNum == num)
-			return true;
-		else 
-			return false;
-
-	}
-}
