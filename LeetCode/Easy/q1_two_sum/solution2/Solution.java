@@ -1,6 +1,5 @@
 // Source : https://leetcode.com/problems/two-sum/
-// Author : Julian Ghoncharenko
-// Date   : 25-06-2020
+
 
 /***************************************************************************************************************
  * Given an array of integers, return indices of the two numbers such that they add up to a specific target.   *
@@ -18,7 +17,6 @@ package com.leet_code.easy.q1_two_sum.solution2;
 
 import java.util.HashMap;
 /***************************************************************************************************************
- * @author Julian Ghoncharenko                                                                                 *
  * Thoughts on implementation:                                                                                 *
  * This time I did one-pass hash table run.                                                                    *
  * The numbers in array are unique so they can be used as keys and indexes of the array can be used as values  *
