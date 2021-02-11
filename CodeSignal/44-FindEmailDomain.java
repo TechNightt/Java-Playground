@@ -6,3 +6,4 @@ String findEmailDomain(String address) {
     String addressSplit[] = address.split("@");
     return addressSplit[addressSplit.length-1];
 }
+
